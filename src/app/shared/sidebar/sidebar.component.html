@@ -1,0 +1,54 @@
+<nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar">
+  <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+  <div class="tm-sidebar-sticky">
+    <div class="tm-brand-box">
+      <div class="tm-double-border-1">
+        <div class="tm-double-border-2">
+          <h1 class="tm-brand text-uppercase">Paises APP</h1>
+        </div>
+      </div>
+    </div>
+
+    <ul
+      id="tmMainNav"
+      class="nav flex-column text-uppercase text-right tm-main-nav"
+    >
+      <li class="nav-item">
+        <a
+          href="#"
+          class="nav-link"
+          routerLink=""
+          routerLinkActive="current"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <span class="d-inline-block mr-3">Buscar país</span>
+          <span class="d-inline-block tm-white-rect"></span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          href="#"
+          class="nav-link"
+          routerLink="region"
+          routerLinkActive="current"
+        >
+          <span class="d-inline-block mr-3">Por región</span>
+          <span class="d-inline-block tm-white-rect"></span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a
+          href="#"
+          class="nav-link"
+          routerLink="capital"
+          routerLinkActive="current"
+        >
+          <span class="d-inline-block mr-3">Por capital</span>
+          <span class="d-inline-block tm-white-rect"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
